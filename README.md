@@ -1,30 +1,61 @@
-# Projeto de Sustentabilidade Energética e Análise de REC’s 🌿⚡
+<div align="center">
 
-Este projeto visa analisar o cenário de consumo energético e a implementação de Certificados de Energia Renovável (REC’s) para empresas, utilizando engenharia de dados e business intelligence para suportar tomadas de decisão sustentáveis.
+<a href="https://gotardon1.github.io/GotardoN1/#projeto/recs">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/GotardoN1/GotardoN1/main/assets/projetos/recs-dark.svg">
+    <img src="https://raw.githubusercontent.com/GotardoN1/GotardoN1/main/assets/projetos/recs-light.svg" width="100%" alt="Sustentabilidade energética e RECs">
+  </picture>
+</a>
 
-## 228; Sobre o Projeto
-O projeto aborda a transição energética global, focando na substituição de combustíveis fósseis por fontes alternativas. Através da filtragem de dados regionais (foco em Salvador) e modelagem de dados, o sistema identifica oportunidades para aquisição de RECs, ajudando empresas a cumprirem diretrizes de emissão de Gases de Efeito Estufa (GEE).
+<img src="https://img.shields.io/badge/Python-pandas_·_NumPy-3776AB?style=flat-square&logo=python&logoColor=white&labelColor=161b22" alt="Python">
+<img src="https://img.shields.io/badge/MySQL-Data_Warehouse-4479A1?style=flat-square&logo=mysql&logoColor=white&labelColor=161b22" alt="MySQL">
+<img src="https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black&labelColor=161b22" alt="Power BI">
+<img src="https://img.shields.io/badge/tema-energia_renov%C3%A1vel-2dd4bf?style=flat-square&labelColor=161b22" alt="Energia renovável">
 
-## 🛠️ Stack Tecnológica
-* **Linguagem:** Python (Extração e Tratamento de Dados)
-* **Banco de Dados:** MySQL (Data Warehouse)
-* **BI & Visualização:** Power BI
-* **Conceitos:** ETL, Modelagem Dimensional (Star Schema), Sustentabilidade Corporativa.
+**[Ver no portfólio interativo](https://gotardon1.github.io/GotardoN1/#projeto/recs)** · **[Perfil](https://github.com/GotardoN1)**
 
-## 📊 Arquitetura da Solução
-1.  **Ingestão:** Coleta de dados sobre fontes energéticas e consumo regional.
-2.  **Processamento:** Scripts Python para limpeza e filtragem (bibliotecas Pandas/NumPy).
-3.  **Armazenamento:** Estruturação de um Data Warehouse em MySQL para suporte a consultas analíticas.
-4.  **Visualização:** Dashboard no Power BI apresentando indicadores de impacto e viabilidade energética.
+</div>
 
-## 🚀 Como Executar
-1. Clone o repositório.
-2. Certifique-se de ter o MySQL instalado para rodar os scripts da pasta `/database`.
-3. Os scripts Python para tratamento de dados estão em `/scripts`.
-4. O relatório final pode ser visualizado na pasta `/dashboards`.
+## Sobre
 
-## 👥 Autores
-* Fabrício Corrêa de Souza
-* Matheus Gonçalves Gotardo
-* Nicole Guerreiro Diniz
-* Willian de Andrade Baggio
+Análise do consumo de energia e da adoção de **Certificados de Energia Renovável (RECs)** por empresas. O projeto usa engenharia de dados e business intelligence para apoiar decisões sustentáveis.
+
+O pano de fundo é a transição energética: trocar combustíveis fósseis por fontes alternativas. Com dados regionais, com foco em **Salvador**, e modelagem dimensional, o projeto aponta oportunidades de compra de RECs. Isso ajuda as empresas a cumprir metas de emissão de **gases de efeito estufa (GEE)**.
+
+## Arquitetura da solução
+
+```mermaid
+flowchart LR
+    A[🔌 Ingestão<br>fontes de energia e<br>consumo regional] --> B[🐍 Tratamento<br>Python · pandas · NumPy]
+    B --> C[(🗄️ Data warehouse<br>MySQL · esquema estrela)]
+    C --> D[📊 Power BI<br>impacto e viabilidade]
+    D --> E{Comprar RECs?}
+```
+
+| Etapa | O que acontece |
+|---|---|
+| **1. Ingestão** | Coleta de dados sobre fontes de energia e consumo regional |
+| **2. Tratamento** | Limpeza e filtragem com Python (pandas e NumPy) |
+| **3. Armazenamento** | Data warehouse em MySQL para consultas analíticas |
+| **4. Visualização** | Painel no Power BI com indicadores de impacto e viabilidade |
+
+**Conceitos aplicados:** ETL, modelagem dimensional (esquema estrela) e sustentabilidade corporativa.
+
+## Neste repositório
+
+| Arquivo | Conteúdo |
+|---|---|
+| [`Apresentacao2.pptx`](Apresentacao2.pptx) | Apresentação do projeto, com a arquitetura e os resultados |
+
+## Autores
+
+| | |
+|---|---|
+| **Fabrício Corrêa de Souza** | **Matheus Gonçalves Gotardo** |
+| **Nicole Guerreiro Diniz** | **Willian de Andrade Baggio** |
+
+---
+
+<div align="center">
+<sub>Mais projetos: <a href="https://github.com/GotardoN1/bi-eficiencia-energetica">BI e eficiência energética</a> · <a href="https://github.com/GotardoN1/grafo-social">Grafo Social</a> · <a href="https://gotardon1.github.io/GotardoN1/#projetos">todos no portfólio</a></sub>
+</div>
